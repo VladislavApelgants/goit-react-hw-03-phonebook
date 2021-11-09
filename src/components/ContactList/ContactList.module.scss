@@ -1,0 +1,33 @@
+.contact__list {
+  list-style: none;
+  width: 300px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact__item {
+  position: relative;
+  padding: 15px;
+
+  border: 1px solid black;
+  background-color: #c4c4c4;
+
+  & + & {
+    margin-top: 20px;
+  }
+}
+
+.contact__number {
+  margin-left: 5px;
+}
+
+.contact__button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-left: 10px;
+  border: none;
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
